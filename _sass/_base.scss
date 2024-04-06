@@ -382,7 +382,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -640,17 +640,18 @@ footer.sticky-bottom {
 
   .grid-sizer,
   .grid-item {
-    width: 250px;
+    width: 420px;
     margin-bottom: 10px;
   }
 
   h2.category {
     color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
+    // border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
+    font-weight: bold;
   }
 }
 
@@ -1023,12 +1024,12 @@ nav[data-toggle="toc"] {
   top: 5rem;
 
   .nav .nav > li > a {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
   }
 
   .nav > li > a {
     color: var(--global-text-color);
-    font-size: 0.75rem;
+    font-size:0.9rem;
 
     &:hover {
       color: var(--global-hover-color);
@@ -1039,7 +1040,7 @@ nav[data-toggle="toc"] {
   .nav-link.active {
     color: var(--global-theme-color);
     border-left-color: var(--global-theme-color);
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 
     &:hover {
       color: var(--global-hover-color);

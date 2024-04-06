@@ -28,7 +28,21 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: $max-content-width;
+  max-width: 70%;
+}
+
+/* For phones (smaller screens) */
+@media (max-width: 600px) { /* Adjust this value based on your needs */
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* For iPads (medium screens) */
+@media (min-width: 601px) and (max-width: 1024px) { /* Adjust these values based on your needs */
+  .container {
+    max-width: 90%;
+  }
 }
 
 // Profile
